@@ -2,41 +2,74 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "7839",
   "files" : {
+<<<<<<< HEAD
     "\/less\/type.less" : {
+=======
+    "\/less\/variables.less" : {
+>>>>>>> refs/heads/1.0/develop
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
+<<<<<<< HEAD
       "inputAbbreviatedPath" : "\/less\/type.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/type.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/less\/variables.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+=======
       "inputAbbreviatedPath" : "\/less\/variables.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/variables.css",
+>>>>>>> refs/heads/1.0/develop
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
     },
+<<<<<<< HEAD
+    "\/less\/variables.less" : {
+=======
     "\/less\/pagination.less" : {
+>>>>>>> refs/heads/1.0/develop
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
+<<<<<<< HEAD
+      "inputAbbreviatedPath" : "\/less\/variables.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/variables.css",
+=======
       "inputAbbreviatedPath" : "\/less\/pagination.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/pagination.css",
+>>>>>>> refs/heads/1.0/develop
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+<<<<<<< HEAD
+    "\/less\/pagination.less" : {
+=======
+    "\/less\/type.less" : {
+>>>>>>> refs/heads/1.0/develop
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+<<<<<<< HEAD
+      "inputAbbreviatedPath" : "\/less\/pagination.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/pagination.css",
+=======
+      "inputAbbreviatedPath" : "\/less\/type.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/type.css",
+>>>>>>> refs/heads/1.0/develop
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -67,15 +100,26 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+<<<<<<< HEAD
     "\/less\/glyphicons.less" : {
+=======
+    "\/less\/grid.less" : {
+>>>>>>> refs/heads/1.0/develop
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
+<<<<<<< HEAD
       "inputAbbreviatedPath" : "\/less\/glyphicons.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/glyphicons.css",
+=======
+      "inputAbbreviatedPath" : "\/less\/grid.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/grid.css",
+>>>>>>> refs/heads/1.0/develop
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -120,25 +164,45 @@
       "debugStyle" : 0
     },
     "\/js\/modernizr.js" : {
+<<<<<<< HEAD
       "ignoreWasSetByUser" : 1,
       "ignore" : 1,
+=======
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+>>>>>>> refs/heads/1.0/develop
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/modernizr.js",
       "outputStyle" : 1,
+<<<<<<< HEAD
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/bootstrap\/modernizr-min.js",
       "fileType" : 64
     },
     "\/less\/grid.less" : {
+=======
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/bootstrap\/modernizr-min.js",
+      "fileType" : 64
+    },
+    "\/less\/glyphicons.less" : {
+>>>>>>> refs/heads/1.0/develop
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
+<<<<<<< HEAD
       "inputAbbreviatedPath" : "\/less\/grid.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/grid.css",
+=======
+      "inputAbbreviatedPath" : "\/less\/glyphicons.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/glyphicons.css",
+>>>>>>> refs/heads/1.0/develop
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -161,6 +225,7 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+<<<<<<< HEAD
     "\/less\/mixins.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -174,6 +239,8 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+=======
+>>>>>>> refs/heads/1.0/develop
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -183,41 +250,74 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+<<<<<<< HEAD
     "\/less\/keyframes.less" : {
+=======
+    "\/less\/sprites.less" : {
+>>>>>>> refs/heads/1.0/develop
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
+<<<<<<< HEAD
       "inputAbbreviatedPath" : "\/less\/keyframes.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/keyframes.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/less\/button-groups.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/less\/button-groups.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/button-groups.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/less\/sprites.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+=======
       "inputAbbreviatedPath" : "\/less\/sprites.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/sprites.css",
+>>>>>>> refs/heads/1.0/develop
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+<<<<<<< HEAD
+    "\/less\/button-groups.less" : {
+=======
+    "\/less\/keyframes.less" : {
+>>>>>>> refs/heads/1.0/develop
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+<<<<<<< HEAD
+      "inputAbbreviatedPath" : "\/less\/button-groups.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/button-groups.css",
+=======
+      "inputAbbreviatedPath" : "\/less\/keyframes.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/keyframes.css",
+>>>>>>> refs/heads/1.0/develop
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+<<<<<<< HEAD
+    "\/less\/sprites.less" : {
+=======
+    "\/less\/button-groups.less" : {
+>>>>>>> refs/heads/1.0/develop
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+<<<<<<< HEAD
+      "inputAbbreviatedPath" : "\/less\/sprites.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/sprites.css",
+=======
+      "inputAbbreviatedPath" : "\/less\/button-groups.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/button-groups.css",
+>>>>>>> refs/heads/1.0/develop
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -233,6 +333,22 @@
       "outputAbbreviatedPath" : "\/js\/bootstrap\/bootstrap-affix-min.js",
       "fileType" : 64
     },
+<<<<<<< HEAD
+=======
+    "\/less\/mixins.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/less\/mixins.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/mixins.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+>>>>>>> refs/heads/1.0/develop
     "\/js\/bootstrap\/bootstrap-collapse.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -270,11 +386,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+<<<<<<< HEAD
     "\/less\/breadcrumbs.less" : {
+=======
+    "\/css\/responsive.css" : {
+>>>>>>> refs/heads/1.0/develop
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
+<<<<<<< HEAD
       "inputAbbreviatedPath" : "\/less\/breadcrumbs.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
@@ -282,6 +403,11 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+=======
+      "inputAbbreviatedPath" : "\/css\/responsive.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+>>>>>>> refs/heads/1.0/develop
     },
     "\/less\/modals.less" : {
       "ignoreWasSetByUser" : 0,
@@ -296,14 +422,28 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+<<<<<<< HEAD
     "\/css\/responsive.css" : {
+=======
+    "\/less\/breadcrumbs.less" : {
+>>>>>>> refs/heads/1.0/develop
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
+<<<<<<< HEAD
       "inputAbbreviatedPath" : "\/css\/responsive.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+=======
+      "inputAbbreviatedPath" : "\/less\/breadcrumbs.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/breadcrumbs.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+>>>>>>> refs/heads/1.0/develop
     },
     "\/js\/bootstrap\/bootstrap-modal.js" : {
       "ignoreWasSetByUser" : 0,
@@ -436,15 +576,26 @@
       "outputAbbreviatedPath" : "\/js\/bootstrap\/bootstrap-scrollspy-min.js",
       "fileType" : 64
     },
+<<<<<<< HEAD
     "\/less\/tables.less" : {
+=======
+    "\/less\/pager.less" : {
+>>>>>>> refs/heads/1.0/develop
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
+<<<<<<< HEAD
       "inputAbbreviatedPath" : "\/less\/tables.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/tables.css",
+=======
+      "inputAbbreviatedPath" : "\/less\/pager.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/pager.css",
+>>>>>>> refs/heads/1.0/develop
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -475,15 +626,26 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+<<<<<<< HEAD
     "\/less\/pager.less" : {
+=======
+    "\/less\/tables.less" : {
+>>>>>>> refs/heads/1.0/develop
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
+<<<<<<< HEAD
       "inputAbbreviatedPath" : "\/less\/pager.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/css\/pager.css",
+=======
+      "inputAbbreviatedPath" : "\/less\/tables.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/tables.css",
+>>>>>>> refs/heads/1.0/develop
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -705,11 +867,19 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
+<<<<<<< HEAD
       "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/js\/bootstrap\/application.js",
       "outputStyle" : 0,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/application-min.js",
+=======
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/bootstrap\/application.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/bootstrap\/application-min.js",
+>>>>>>> refs/heads/1.0/develop
       "fileType" : 64
     },
     "\/js\/animate.js" : {
@@ -745,7 +915,11 @@
     },
     "\/js\/application-min.js" : {
       "ignoreWasSetByUser" : 0,
+<<<<<<< HEAD
       "ignore" : 1,
+=======
+      "ignore" : 0,
+>>>>>>> refs/heads/1.0/develop
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/application-min.js",
@@ -780,16 +954,30 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+<<<<<<< HEAD
     "\/js\/bootstrap\/bootstrap-typeahead.js" : {
+=======
+    "\/less\/buttons.less" : {
+>>>>>>> refs/heads/1.0/develop
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
+<<<<<<< HEAD
       "inputAbbreviatedPath" : "\/js\/bootstrap\/bootstrap-typeahead.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/bootstrap\/bootstrap-typeahead-min.js",
       "fileType" : 64
+=======
+      "inputAbbreviatedPath" : "\/less\/buttons.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/buttons.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+>>>>>>> refs/heads/1.0/develop
     },
     "\/js\/bootstrap\/bootstrap-alert.js" : {
       "ignoreWasSetByUser" : 0,
@@ -802,11 +990,16 @@
       "outputAbbreviatedPath" : "\/js\/bootstrap\/bootstrap-alert-min.js",
       "fileType" : 64
     },
+<<<<<<< HEAD
     "\/less\/buttons.less" : {
+=======
+    "\/js\/bootstrap\/bootstrap-typeahead.js" : {
+>>>>>>> refs/heads/1.0/develop
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
+<<<<<<< HEAD
       "inputAbbreviatedPath" : "\/less\/buttons.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
@@ -830,6 +1023,29 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/style.css",
+=======
+      "inputAbbreviatedPath" : "\/js\/bootstrap\/bootstrap-typeahead.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/bootstrap\/bootstrap-typeahead-min.js",
+      "fileType" : 64
+    },
+    "\/css\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/google-code-prettify\/prettify.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 1,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/google-code-prettify\/prettify.css",
+>>>>>>> refs/heads/1.0/develop
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -885,6 +1101,20 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+<<<<<<< HEAD
+=======
+    "\/js\/bootstrap\/bootstrap-tab.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/bootstrap\/bootstrap-tab.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/bootstrap\/bootstrap-tab-min.js",
+      "fileType" : 64
+    },
+>>>>>>> refs/heads/1.0/develop
     "\/less\/utilities.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -897,6 +1127,7 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+<<<<<<< HEAD
     },
     "\/js\/bootstrap\/bootstrap-tab.js" : {
       "ignoreWasSetByUser" : 0,
@@ -908,6 +1139,8 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/bootstrap\/bootstrap-tab-min.js",
       "fileType" : 64
+=======
+>>>>>>> refs/heads/1.0/develop
     }
   },
   "manualImportLinks" : [
