@@ -57,7 +57,13 @@
 
   })
 
-}(window.jQuery);/* ==========================================================
+}(window.jQuery);
+
+/* **********************************************
+     Begin bootstrap-alert.js
+********************************************** */
+
+/* ==========================================================
  * bootstrap-alert.js v2.1.1
  * http://twitter.github.com/bootstrap/javascript.html#alerts
  * ==========================================================
@@ -146,7 +152,13 @@
     $('body').on('click.alert.data-api', dismiss, Alert.prototype.close)
   })
 
-}(window.jQuery);/* ============================================================
+}(window.jQuery);
+
+/* **********************************************
+     Begin bootstrap-button.js
+********************************************** */
+
+/* ============================================================
  * bootstrap-button.js v2.1.1
  * http://twitter.github.com/bootstrap/javascript.html#buttons
  * ============================================================
@@ -241,7 +253,13 @@
     })
   })
 
-}(window.jQuery);/* ==========================================================
+}(window.jQuery);
+
+/* **********************************************
+     Begin bootstrap-carousel.js
+********************************************** */
+
+/* ==========================================================
  * bootstrap-carousel.js v2.1.1
  * http://twitter.github.com/bootstrap/javascript.html#carousel
  * ==========================================================
@@ -416,7 +434,13 @@
     })
   })
 
-}(window.jQuery);/* =============================================================
+}(window.jQuery);
+
+/* **********************************************
+     Begin bootstrap-collapse.js
+********************************************** */
+
+/* =============================================================
  * bootstrap-collapse.js v2.1.1
  * http://twitter.github.com/bootstrap/javascript.html#collapse
  * =============================================================
@@ -573,7 +597,13 @@
     })
   })
 
-}(window.jQuery);/* ============================================================
+}(window.jQuery);
+
+/* **********************************************
+     Begin bootstrap-dropdown.js
+********************************************** */
+
+/* ============================================================
  * bootstrap-dropdown.js v2.1.1
  * http://twitter.github.com/bootstrap/javascript.html#dropdowns
  * ============================================================
@@ -722,245 +752,13 @@
       .on('keydown.dropdown.data-api touchstart.dropdown.data-api', toggle + ', [role=menu]' , Dropdown.prototype.keydown)
   })
 
-}(window.jQuery);/* =========================================================
- * bootstrap-modal.js v2.1.1
- * http://twitter.github.com/bootstrap/javascript.html#modals
- * =========================================================
- * Copyright 2012 Twitter, Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- * ========================================================= */
+}(window.jQuery);
 
+/* **********************************************
+     Begin bootstrap-tooltip.js
+********************************************** */
 
-!function ($) {
-
-  "use strict"; // jshint ;_;
-
-
- /* MODAL CLASS DEFINITION
-  * ====================== */
-
-  var Modal = function (element, options) {
-    this.options = options
-    this.$element = $(element)
-      .delegate('[data-dismiss="modal"]', 'click.dismiss.modal', $.proxy(this.hide, this))
-    this.options.remote && this.$element.find('.modal-body').load(this.options.remote)
-  }
-
-  Modal.prototype = {
-
-      constructor: Modal
-
-    , toggle: function () {
-        return this[!this.isShown ? 'show' : 'hide']()
-      }
-
-    , show: function () {
-        var that = this
-          , e = $.Event('show')
-
-        this.$element.trigger(e)
-
-        if (this.isShown || e.isDefaultPrevented()) return
-
-        $('body').addClass('modal-open')
-
-        this.isShown = true
-
-        this.escape()
-
-        this.backdrop(function () {
-          var transition = $.support.transition && that.$element.hasClass('fade')
-
-          if (!that.$element.parent().length) {
-            that.$element.appendTo(document.body) //don't move modals dom position
-          }
-
-          that.$element
-            .show()
-
-          if (transition) {
-            that.$element[0].offsetWidth // force reflow
-          }
-
-          that.$element
-            .addClass('in')
-            .attr('aria-hidden', false)
-            .focus()
-
-          that.enforceFocus()
-
-          transition ?
-            that.$element.one($.support.transition.end, function () { that.$element.trigger('shown') }) :
-            that.$element.trigger('shown')
-
-        })
-      }
-
-    , hide: function (e) {
-        e && e.preventDefault()
-
-        var that = this
-
-        e = $.Event('hide')
-
-        this.$element.trigger(e)
-
-        if (!this.isShown || e.isDefaultPrevented()) return
-
-        this.isShown = false
-
-        $('body').removeClass('modal-open')
-
-        this.escape()
-
-        $(document).off('focusin.modal')
-
-        this.$element
-          .removeClass('in')
-          .attr('aria-hidden', true)
-
-        $.support.transition && this.$element.hasClass('fade') ?
-          this.hideWithTransition() :
-          this.hideModal()
-      }
-
-    , enforceFocus: function () {
-        var that = this
-        $(document).on('focusin.modal', function (e) {
-          if (that.$element[0] !== e.target && !that.$element.has(e.target).length) {
-            that.$element.focus()
-          }
-        })
-      }
-
-    , escape: function () {
-        var that = this
-        if (this.isShown && this.options.keyboard) {
-          this.$element.on('keyup.dismiss.modal', function ( e ) {
-            e.which == 27 && that.hide()
-          })
-        } else if (!this.isShown) {
-          this.$element.off('keyup.dismiss.modal')
-        }
-      }
-
-    , hideWithTransition: function () {
-        var that = this
-          , timeout = setTimeout(function () {
-              that.$element.off($.support.transition.end)
-              that.hideModal()
-            }, 500)
-
-        this.$element.one($.support.transition.end, function () {
-          clearTimeout(timeout)
-          that.hideModal()
-        })
-      }
-
-    , hideModal: function (that) {
-        this.$element
-          .hide()
-          .trigger('hidden')
-
-        this.backdrop()
-      }
-
-    , removeBackdrop: function () {
-        this.$backdrop.remove()
-        this.$backdrop = null
-      }
-
-    , backdrop: function (callback) {
-        var that = this
-          , animate = this.$element.hasClass('fade') ? 'fade' : ''
-
-        if (this.isShown && this.options.backdrop) {
-          var doAnimate = $.support.transition && animate
-
-          this.$backdrop = $('<div class="modal-backdrop ' + animate + '" />')
-            .appendTo(document.body)
-
-          if (this.options.backdrop != 'static') {
-            this.$backdrop.click($.proxy(this.hide, this))
-          }
-
-          if (doAnimate) this.$backdrop[0].offsetWidth // force reflow
-
-          this.$backdrop.addClass('in')
-
-          doAnimate ?
-            this.$backdrop.one($.support.transition.end, callback) :
-            callback()
-
-        } else if (!this.isShown && this.$backdrop) {
-          this.$backdrop.removeClass('in')
-
-          $.support.transition && this.$element.hasClass('fade')?
-            this.$backdrop.one($.support.transition.end, $.proxy(this.removeBackdrop, this)) :
-            this.removeBackdrop()
-
-        } else if (callback) {
-          callback()
-        }
-      }
-  }
-
-
- /* MODAL PLUGIN DEFINITION
-  * ======================= */
-
-  $.fn.modal = function (option) {
-    return this.each(function () {
-      var $this = $(this)
-        , data = $this.data('modal')
-        , options = $.extend({}, $.fn.modal.defaults, $this.data(), typeof option == 'object' && option)
-      if (!data) $this.data('modal', (data = new Modal(this, options)))
-      if (typeof option == 'string') data[option]()
-      else if (options.show) data.show()
-    })
-  }
-
-  $.fn.modal.defaults = {
-      backdrop: true
-    , keyboard: true
-    , show: true
-  }
-
-  $.fn.modal.Constructor = Modal
-
-
- /* MODAL DATA-API
-  * ============== */
-
-  $(function () {
-    $('body').on('click.modal.data-api', '[data-toggle="modal"]', function ( e ) {
-      var $this = $(this)
-        , href = $this.attr('href')
-        , $target = $($this.attr('data-target') || (href && href.replace(/.*(?=#[^\s]+$)/, ''))) //strip for ie7
-        , option = $target.data('modal') ? 'toggle' : $.extend({ remote: !/#/.test(href) && href }, $target.data(), $this.data())
-
-      e.preventDefault()
-
-      $target
-        .modal(option)
-        .one('hide', function () {
-          $this.focus()
-        })
-    })
-  })
-
-}(window.jQuery);/* ===========================================================
+/* ===========================================================
  * bootstrap-tooltip.js v2.1.1
  * http://twitter.github.com/bootstrap/javascript.html#tooltips
  * Inspired by the original jQuery.tipsy by Jason Frame
@@ -1235,6 +1033,12 @@
   }
 
 }(window.jQuery);
+
+
+/* **********************************************
+     Begin bootstrap-popover.js
+********************************************** */
+
 /* ===========================================================
  * bootstrap-popover.js v2.1.1
  * http://twitter.github.com/bootstrap/javascript.html#popovers
@@ -1337,7 +1141,13 @@
   , template: '<div class="popover"><div class="arrow"></div><div class="popover-inner"><h3 class="popover-title"></h3><div class="popover-content"><p></p></div></div></div>'
   })
 
-}(window.jQuery);/* =============================================================
+}(window.jQuery);
+
+/* **********************************************
+     Begin bootstrap-scrollspy.js
+********************************************** */
+
+/* =============================================================
  * bootstrap-scrollspy.js v2.1.1
  * http://twitter.github.com/bootstrap/javascript.html#scrollspy
  * =============================================================
@@ -1487,7 +1297,13 @@
     })
   })
 
-}(window.jQuery);/* ========================================================
+}(window.jQuery);
+
+/* **********************************************
+     Begin bootstrap-tab.js
+********************************************** */
+
+/* ========================================================
  * bootstrap-tab.js v2.1.1
  * http://twitter.github.com/bootstrap/javascript.html#tabs
  * ========================================================
@@ -1621,7 +1437,13 @@
     })
   })
 
-}(window.jQuery);/* =============================================================
+}(window.jQuery);
+
+/* **********************************************
+     Begin bootstrap-typeahead.js
+********************************************** */
+
+/* =============================================================
  * bootstrap-typeahead.js v2.1.1
  * http://twitter.github.com/bootstrap/javascript.html#typeahead
  * =============================================================
@@ -1921,6 +1743,12 @@
   })
 
 }(window.jQuery);
+
+
+/* **********************************************
+     Begin bootstrap-affix.js
+********************************************** */
+
 /* ==========================================================
  * bootstrap-affix.js v2.1.1
  * http://twitter.github.com/bootstrap/javascript.html#affix
@@ -2025,3 +1853,265 @@
 
 
 }(window.jQuery);
+
+/* **********************************************
+     Begin bootstrap-modal.js
+********************************************** */
+
+/* =========================================================
+ * bootstrap-modal.js v2.1.1
+ * http://twitter.github.com/bootstrap/javascript.html#modals
+ * =========================================================
+ * Copyright 2012 Twitter, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * ========================================================= */
+
+
+!function ($) {
+
+  "use strict"; // jshint ;_;
+
+
+ /* MODAL CLASS DEFINITION
+  * ====================== */
+
+  var Modal = function (element, options) {
+    this.options = options
+    this.$element = $(element)
+      .delegate('[data-dismiss="modal"]', 'click.dismiss.modal', $.proxy(this.hide, this))
+    this.options.remote && this.$element.find('.modal-body').load(this.options.remote)
+  }
+
+  Modal.prototype = {
+
+      constructor: Modal
+
+    , toggle: function () {
+        return this[!this.isShown ? 'show' : 'hide']()
+      }
+
+    , show: function () {
+        var that = this
+          , e = $.Event('show')
+
+        this.$element.trigger(e)
+
+        if (this.isShown || e.isDefaultPrevented()) return
+
+        $('body').addClass('modal-open')
+
+        this.isShown = true
+
+        this.escape()
+
+        this.backdrop(function () {
+          var transition = $.support.transition && that.$element.hasClass('fade')
+
+          if (!that.$element.parent().length) {
+            that.$element.appendTo(document.body) //don't move modals dom position
+          }
+
+          that.$element
+            .show()
+
+          if (transition) {
+            that.$element[0].offsetWidth // force reflow
+          }
+
+          that.$element
+            .addClass('in')
+            .attr('aria-hidden', false)
+            .focus()
+
+          that.enforceFocus()
+
+          transition ?
+            that.$element.one($.support.transition.end, function () { that.$element.trigger('shown') }) :
+            that.$element.trigger('shown')
+
+        })
+      }
+
+    , hide: function (e) {
+        e && e.preventDefault()
+
+        var that = this
+
+        e = $.Event('hide')
+
+        this.$element.trigger(e)
+
+        if (!this.isShown || e.isDefaultPrevented()) return
+
+        this.isShown = false
+
+        $('body').removeClass('modal-open')
+
+        this.escape()
+
+        $(document).off('focusin.modal')
+
+        this.$element
+          .removeClass('in')
+          .attr('aria-hidden', true)
+
+        $.support.transition && this.$element.hasClass('fade') ?
+          this.hideWithTransition() :
+          this.hideModal()
+      }
+
+    , enforceFocus: function () {
+        var that = this
+        $(document).on('focusin.modal', function (e) {
+          if (that.$element[0] !== e.target && !that.$element.has(e.target).length) {
+            that.$element.focus()
+          }
+        })
+      }
+
+    , escape: function () {
+        var that = this
+        if (this.isShown && this.options.keyboard) {
+          this.$element.on('keyup.dismiss.modal', function ( e ) {
+            e.which == 27 && that.hide()
+          })
+        } else if (!this.isShown) {
+          this.$element.off('keyup.dismiss.modal')
+        }
+      }
+
+    , hideWithTransition: function () {
+        var that = this
+          , timeout = setTimeout(function () {
+              that.$element.off($.support.transition.end)
+              that.hideModal()
+            }, 500)
+
+        this.$element.one($.support.transition.end, function () {
+          clearTimeout(timeout)
+          that.hideModal()
+        })
+      }
+
+    , hideModal: function (that) {
+        this.$element
+          .hide()
+          .trigger('hidden')
+
+        this.backdrop()
+      }
+
+    , removeBackdrop: function () {
+        this.$backdrop.remove()
+        this.$backdrop = null
+      }
+
+    , backdrop: function (callback) {
+        var that = this
+          , animate = this.$element.hasClass('fade') ? 'fade' : ''
+
+        if (this.isShown && this.options.backdrop) {
+          var doAnimate = $.support.transition && animate
+
+          this.$backdrop = $('<div class="modal-backdrop ' + animate + '" />')
+            .appendTo(document.body)
+
+          if (this.options.backdrop != 'static') {
+            this.$backdrop.click($.proxy(this.hide, this))
+          }
+
+          if (doAnimate) this.$backdrop[0].offsetWidth // force reflow
+
+          this.$backdrop.addClass('in')
+
+          doAnimate ?
+            this.$backdrop.one($.support.transition.end, callback) :
+            callback()
+
+        } else if (!this.isShown && this.$backdrop) {
+          this.$backdrop.removeClass('in')
+
+          $.support.transition && this.$element.hasClass('fade')?
+            this.$backdrop.one($.support.transition.end, $.proxy(this.removeBackdrop, this)) :
+            this.removeBackdrop()
+
+        } else if (callback) {
+          callback()
+        }
+      }
+  }
+
+
+ /* MODAL PLUGIN DEFINITION
+  * ======================= */
+
+  $.fn.modal = function (option) {
+    return this.each(function () {
+      var $this = $(this)
+        , data = $this.data('modal')
+        , options = $.extend({}, $.fn.modal.defaults, $this.data(), typeof option == 'object' && option)
+      if (!data) $this.data('modal', (data = new Modal(this, options)))
+      if (typeof option == 'string') data[option]()
+      else if (options.show) data.show()
+    })
+  }
+
+  $.fn.modal.defaults = {
+      backdrop: true
+    , keyboard: true
+    , show: true
+  }
+
+  $.fn.modal.Constructor = Modal
+
+
+ /* MODAL DATA-API
+  * ============== */
+
+  $(function () {
+    $('body').on('click.modal.data-api', '[data-toggle="modal"]', function ( e ) {
+      var $this = $(this)
+        , href = $this.attr('href')
+        , $target = $($this.attr('data-target') || (href && href.replace(/.*(?=#[^\s]+$)/, ''))) //strip for ie7
+        , option = $target.data('modal') ? 'toggle' : $.extend({ remote: !/#/.test(href) && href }, $target.data(), $this.data())
+
+      e.preventDefault()
+
+      $target
+        .modal(option)
+        .one('hide', function () {
+          $this.focus()
+        })
+    })
+  })
+
+}(window.jQuery);
+
+/* **********************************************
+     Begin application.js
+********************************************** */
+
+//@codekit-prepend "bootstrap-transition.js"
+//@codekit-prepend "bootstrap-alert.js"
+//@codekit-prepend "bootstrap-button.js"
+//@codekit-prepend "bootstrap-carousel.js"
+//@codekit-prepend "bootstrap-collapse.js"
+//@codekit-prepend "bootstrap-dropdown.js"
+//@codekit-prepend "bootstrap-tooltip.js"
+//@codekit-prepend "bootstrap-popover.js"
+//@codekit-prepend "bootstrap-scrollspy.js"
+//@codekit-prepend "bootstrap-tab.js"
+//@codekit-prepend "bootstrap-typeahead.js"
+//@codekit-prepend "bootstrap-affix.js"
+//@codekit-prepend "bootstrap-modal.js"

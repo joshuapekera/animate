@@ -1,97 +1,118 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*
+.box-shadow(@shadow) {
+  -webkit-box-shadow: @shadow;
+     -moz-box-shadow: @shadow;
+          box-shadow: @shadow;
+}
+*/
 html {
-	-webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
-
 .bs-docs-canvas {
-	margin-top: 40px;
+  margin-top: 40px;
 }
-
 .content {
-	background: transparent;
-	margin-top: 0px;
-	height: 150px;
+  background: transparent;
+  margin-top: 0px;
+  height: 150px;
 }
-
 .sandbox {
-	padding: 60px 0 20px 0;
-	position: relative;
-	z-index: 1030;
-	pointer-events: none;
-	max-width: 200px;
-	text-align: center;
-	margin: 0 auto;
-	margin-top: 0px;
-	background: transparent;
+  padding: 60px 0 20px 0;
+  position: relative;
+  z-index: 1030;
+  pointer-events: none;
+  max-width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0px;
+  background: transparent;
 }
-
 .fixed + h3 {
-	margin-top: 190px;
+  margin-top: 190px;
 }
-
 .fixed {
-	position: fixed !important;
-	top: 0px;
+  position: fixed !important;
+  top: 0px;
   left: 50%;
   margin-left: -100px;
-	display: inline-block;
-	text-align: center;
-	
+  display: inline-block;
+  text-align: center;
 }
-
 #animateTest {
-	text-align: center;
-	background: #333;
-	padding: 20px 0px;
-	width: 100%;
-	display: block;
-	color: #fff;
-	text-align: center;
-	border-radius: 5px;
-	font-weight: bold;
-	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.6);
-	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,.6);
-	-ms-box-shadow: 0 0 30px 0 rgba(0,0,0,.6);
-	-o-box-shadow: 0 0 30px 0 rgba(0,0,0,.6);
-	box-shadow: 0 0 30px 0 rgba(0,0,0,.6);
-	
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	-ms-backface-visibility: hidden;
-	-o-backface-visibility: hidden;
-	backface-visibility: hidden;
-	
-	-webkit-animation-duration: 1s;
-	-webkit-animation-delay: .2s;
-	-webkit-animation-timing-function: ease;
-	-webkit-animation-fill-mode: both;
-	-moz-animation-duration: 1s;
-	-moz-animation-delay: .2s;
-	-moz-animation-timing-function: ease;
-	-moz-animation-fill-mode: both;
-	-ms-animation-duration: 1s;
-	-ms-animation-delay: .2s;
-	-ms-animation-timing-function: ease;
-	-ms-animation-fill-mode: both;
-	-o-animation-duration: 1s;
-	-o-animation-delay: .2s;
-	-o-animation-timing-function: ease;
-	-o-animation-fill-mode: both;
-	animation-duration: 1s;
-	animation-delay: .2s;
-	animation-timing-function: ease;
-	animation-fill-mode: both;
+  background: #333;
+  padding: 20px 0px;
+  width: 100%;
+  display: block;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.6);
+  -ms-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.6);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: .2s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-duration: 1s;
+  -moz-animation-delay: .2s;
+  -moz-animation-timing-function: ease;
+  -moz-animation-fill-mode: both;
+  -ms-animation-duration: 1s;
+  -ms-animation-delay: .2s;
+  -ms-animation-timing-function: ease;
+  -ms-animation-fill-mode: both;
+  -o-animation-duration: 1s;
+  -o-animation-delay: .2s;
+  -o-animation-timing-function: ease;
+  -o-animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-delay: .2s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
 }
-
 #animateTest span {
-	margin: 0;
+  margin: 0;
 }
-
 .fixed #animateTest {
-	width: 200px;
+  width: 200px;
 }
-
 .btn {
-	font-weight: bold;
-	margin: .5em .25em;
-	display: inline-block;
+  font-weight: bold;
+  margin: .5em .25em;
+  display: inline-block;
 }
