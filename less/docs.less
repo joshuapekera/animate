@@ -1,37 +1,6 @@
-.clearfix {
-  *zoom: 1;
-}
-.clearfix:before,
-.clearfix:after {
-  display: table;
-  content: "";
-  line-height: 0;
-}
-.clearfix:after {
-  clear: both;
-}
-.hide-text {
-  font: 0/0 a;
-  color: transparent;
-  text-shadow: none;
-  background-color: transparent;
-  border: 0;
-}
-.input-block-level {
-  display: block;
-  width: 100%;
-  min-height: 30px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-/*
-.box-shadow(@shadow) {
-  -webkit-box-shadow: @shadow;
-     -moz-box-shadow: @shadow;
-          box-shadow: @shadow;
-}
-*/
+@import "variables.less"; // Modify this for custom colors, font-sizes, etc
+@import "mixins.less";
+
 .clearfix {
   *zoom: 1;
 }
@@ -100,8 +69,9 @@ body > .navbar .brand:hover {
   text-decoration: none;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 0 30px rgba(255, 255, 255, 0.4);
   color: #952f0a;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3), 0 0 30px #ffffff;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3), 0 0 30px rgba(255, 255, 255, 1);
 }
+
 /* Sections
 -------------------------------------------------- */
 /* padding for in-page bookmarks and fixed navbar */
@@ -167,6 +137,7 @@ hr.soften {
   -moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.2), inset 0 -3px 7px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.2), inset 0 -3px 7px rgba(0, 0, 0, 0.2);
 }
+
 .jumbotron h1 {
   font-size: 80px;
   font-weight: bold;
@@ -235,14 +206,14 @@ hr.soften {
   bottom: 0;
   left: 0;
   /* background: url(../img/linen.png) repeat center center; */
-
   opacity: 1;
 }
+
 /* Icons 
 ------------------------- */
 [class^="icon-"],
 [class*=" icon-"] {
-  background-image: url("../../../../system/cms/themes/pyrocms/img/glyphicons-halflings.png");
+	background-image: url("../../../../system/cms/themes/pyrocms/img/glyphicons-halflings.png");
 }
 /* Masthead (docs home)
 ------------------------- */
@@ -365,9 +336,9 @@ hr.soften {
   -o-transition: all 200ms linear;
   transition: all 200ms linear;
 }
-.footer a:hover,
-.footer a:focus {
-  color: white;
+
+.footer a:hover, .footer a:focus {
+	color: white;
 }
 /* Special grid styles
 -------------------------------------------------- */
@@ -781,8 +752,9 @@ form.bs-docs-example {
   padding: 8px 14px;
   border: 1px solid #e5e5e5;
 }
+
 .bs-docs-sidenav > li > a:after {
-  content: "\e080";
+	content: "\e080";
   font-family: 'Glyphicons Halflings';
   font-style: normal;
   line-height: 1;
@@ -790,20 +762,25 @@ form.bs-docs-example {
   margin-top: 2px;
   float: right;
 }
+
 .bs-docs-sidenav > li > a:hover:after {
-  color: #777;
+	color: #777;
 }
+
 .bs-docs-sidenav > li.active > a:after {
-  color: white;
+	color: white;
 }
+
 .bs-docs-sidenav > li.active > a:hover:after {
-  color: white;
+	color: white;
 }
+
 .bs-docs-sidenav > li:first-child > a {
   -webkit-border-radius: 6px 6px 0 0;
   -moz-border-radius: 6px 6px 0 0;
   border-radius: 6px 6px 0 0;
 }
+
 .bs-docs-sidenav > li:last-child > a {
   -webkit-border-radius: 0 0 6px 6px;
   -moz-border-radius: 0 0 6px 6px;
@@ -909,6 +886,7 @@ form.bs-docs-example {
     padding-top: 0;
   }
   /* Widen masthead and social buttons to fill body padding */
+  
   .jumbotron {
     padding: 40px 20px;
     margin-top: -20px;
@@ -1017,8 +995,7 @@ form.bs-docs-example {
     left: auto;
   }
   /* Unfloat the back to top in footer to prevent odd text wrapping */
-  .footer .pull-right,
-  .footer .pull-left {
+  .footer .pull-right, .footer .pull-left {
     float: none;
     text-align: center;
   }
