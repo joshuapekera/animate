@@ -20,22 +20,15 @@
 .input-block-level {
   display: block;
   width: 100%;
-  min-height: 30px;
+  min-height: 32px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/*
-.box-shadow(@shadow) {
-  -webkit-box-shadow: @shadow;
-     -moz-box-shadow: @shadow;
-          box-shadow: @shadow;
-}
-*/
 html {
   -webkit-font-smoothing: subpixel-antialiased;
 }
-.bs-docs-canvas {
+.animate-canvas {
   margin-top: 40px;
 }
 .content {
@@ -68,7 +61,6 @@ html {
 #animateTest {
   display: block;
   padding: 20px 0px;
-  width: 100%;
   color: #fff;
   text-align: center;
   font-weight: bold;
@@ -128,9 +120,4 @@ html {
 }
 .fixed #animateTest {
   width: 200px;
-}
-.btn {
-  display: inline-block;
-  margin: .5em .25em;
-  font-weight: bold;
 }

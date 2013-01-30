@@ -1,12 +1,12 @@
 @import "variables.less"; // Modify this for custom colors, font-sizes, etc
-@import "mixins.less";
+@import "../../components/bootstrap/less/mixins.less";
 @import "../../animate/less/mixins.less";
 
 html {
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 
-.bs-docs-canvas {
+.animate-canvas {
 	margin-top: 40px;
 }
 
@@ -43,7 +43,7 @@ html {
 #animateTest {
 	display: block;
 	padding: 20px 0px;
-	width: 100%;
+	//width: 100%;
 	color: #fff;
 	text-align: center;
 	font-weight: bold;
@@ -75,10 +75,4 @@ html {
 
 .fixed #animateTest {
 	width: 200px;
-}
-
-.btn {
-	display: inline-block;
-	margin: .5em .25em;
-	font-weight: bold;
 }

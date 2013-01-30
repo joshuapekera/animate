@@ -100,40 +100,43 @@ and (orientation : portrait) {
 
 }// !end Media Query
 
-/* Retina Displays (Tip: Best used only for image replacement)
+/* !Retina Displays (Tip: Best used only for image replacement)
 ------------------------------------------------------------------ */
 @media 
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-// Styles
-// !Pyro mobile navbar
-// -------------------------
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 21),
+only screen and ( min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx) {
+/* Styles */
 
-.navbar-pyro {
-  .navbar-inner {
-    background: @navbarPyroBackground url(@navbarPyroBackground2x) repeat-x;
-    .background-size(@navbarBackgroundImageWidth @navbarBackgroundImageHeight);
-  }
 }
 
-}// !end Media Query
-
-/* iPad Retina Displays (Tip: Best used only for image replacement)
+/* !iPad Retina Displays (Tip: Best used only for image replacement)
 ------------------------------------------------------------------ */
 @media 
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5)
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 21),
+only screen and ( min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx)
 and (max-device-width: 1024px) {
-// Styles
+/* Styles */
 
-}// !end Media Query
+}
 
-/* iPhone Retina Displays (Tip: Best used only for image replacement)
+/* !iPhone Retina Displays (Tip: Best used only for image replacement)
 ------------------------------------------------------------------ */
 @media 
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5)
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 21),
+only screen and ( min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx)
 and (max-device-width: 480px) {
-// Styles
+/* Styles */
 
-}// !end Media Query
+}

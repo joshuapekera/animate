@@ -6,24 +6,55 @@
 // Global values
 // --------------------------------------------------
 
+// Grays (Custom)
+// -------------------------
+@grayOne:								#111;
+@grayTwo:								#222;
+@grayThree:							#333;
+@grayFour:							#444;
+@grayFive:							#555;
+@graySix:								#666;
+@graySeven:							#777;
+@grayEight:							#888;
+@grayNine:							#999;
 
-// Grays
+// Grays (over write default bootstrap)
 // -------------------------
 @black:                 #000;
-@grayDarker:            #222;
-@grayDark:              #333;
-@grayer:               	#444;
-@gray:                  #555;
-@grayish:               #666;
-@grayLight:             #999;
-@grayLighter:           #eee;
+@grayDarker:            @grayTwo;
+@grayDark:              @grayThree;
+@gray:                  @grayFive;
+@grayLight:             @grayNine;
+@grayLighter:           @grayE;
+
+
+// Mid-Grays
+// -------------------------
+@grayA:									#aaa;
+@grayB:									#bbb;
+@grayC:									#ccc;
+@grayD:									#ddd;
+@grayE:									#eee;
+
+// Whites
+//---------------------------
+@whiteNine:							#f9f9f9;
+@whiteEight:						#f8f8f8;
+@whiteSeven:						#f7f7f7;
+@whiteSix:							#f6f6f6;
+@whiteFive:							#f5f5f5;
+@whiteFour:							#f4f4f4;
+@whiteThree:						#f3f3f3;
+@whiteTwo:							#f2f2f2;
+@whiteOne:							#f1f1f1;
+@whiteZero:							#f0f0f0;
 @white:                 #fff;
 
 
 // Accent colors
 // -------------------------
-@blue:                  #049cdb;
-@blueDark:              #0064cd;
+@blue:                  #4593de;
+@blueDark:              #336EA6;
 @green:                 #46a546;
 @red:                   #9d261d;
 @yellow:                #ffc40d;
@@ -31,46 +62,57 @@
 @pink:                  #c3325f;
 @purple:                #7a43b6;
 
-// PyroCMS colors
-// -------------------------
-@pyroOrange:            #ff9a00;
-@pyroHighlight:					#ffd253;
-@pyroShadow:						#952f0a;
-@pyroBlack:							#292929;
+// Theme Colors
+// --------------------------
+@slate:									#262729;
+@apple:									#17181a;
+@appleHighlight:				#383b40;
+@grayLightPyro:					#f6f6f6;
+@grayPyro:							#e9e9e9;
+@pyroOrange:						#FFA335;
+@offwhite:							#fafaf9;
+
+// Background Patterns
+@linen1x:								"../assets/images/linen1x.jpg";
+@linen2x:								"../assets/images/linen2x.jpg";
+@grain1x:								"../assets/images/grain.png";
+@grain2x:								"../assets/images/grain2x.png";
 
 // Scaffolding
 // -------------------------
-@bodyBackground:        @grayLighter;
-@textColor:             @grayDark;
-@backgroundTile:				"../../img/bg_texture@1x.png";
-@blueishBackground:			"../../img/bg_blueish.jpg";
-@noise:									"../../img/bg-grain.png";
-@noiseDark:							"../../img/bg_noisedark.jpg";
-@classyDark:						"../../img/bg_classydark.jpg";
+@bodyBackground:        @offwhite;
+@footerBackground:			@offwhite;
+@footerBorder:					@grayPyro;
+@textColor:             @grayThree;
+
+// Selection
+// -------------------------
+@selectionText:					@white;
+@selectionBackground:		@pyroOrange;
 
 // Links
 // -------------------------
-@linkColor:             @pyroOrange;
-@linkColorHover:        darken(@linkColor, 15%);
-@linkColorHoverLight:   @white;
-@linkColorActive:				darken(@linkColor, 15%);
-@linkColorActiveLight:	@linkColorHoverLight;
+@linkColor:             @blue;
+@linkColorHover:        darken(@blue, 10%);
 
 
 // Typography
 // -------------------------
-@sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+@sansFontFamily:        "proxima nova", "proxima-nova", "Proxima", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 @monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
+@glyphHalfIcons:				"Glyphicons Halflings";
+@glyphFullIcons:				"Glyphicons";
 
-@baseFontSize:          14px;
+@baseFontSize:          16px;
 @baseFontFamily:        @sansFontFamily;
-@baseLineHeight:        20px;
+@baseLineHeight:        22px;
 @altFontFamily:         @serifFontFamily;
 
 @headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
 @headingsFontWeight:    bold;    // instead of browser default, bold
 @headingsColor:         inherit; // empty to use BS default, @textColor
+
 
 // Component sizing
 // -------------------------
@@ -82,32 +124,28 @@
 
 @paddingLarge:          11px 19px; // 44px
 @paddingSmall:          2px 10px;  // 26px
-@paddingMini:           0 6px;   // 22px
+@paddingMini:           1px 6px;   // 24px
 
 @baseBorderRadius:      4px;
 @borderRadiusLarge:     6px;
 @borderRadiusSmall:     3px;
 
-// Retina Sizing
-// -------------------------
-// Adjusts all background sizes to half their actual size for retina displays
-@backgroundSizeRetina:	50% 50%;
 
 // Tables
 // -------------------------
 @tableBackground:                   transparent; // overall background-color
-@tableBackgroundAccent:             #f9f9f9; // for striping
-@tableBackgroundHover:              #f5f5f5; // for hover
-@tableBorder:                       #ddd; // table and cell border
+@tableBackgroundAccent:             @whiteNine; // for striping
+@tableBackgroundHover:              @whiteFive; // for hover
+@tableBorder:                       @grayD; // table and cell border
 
 // Buttons
 // -------------------------
-@btnBackground:                     #a2acb2;
-@btnBackgroundHighlight:            darken(@btnBackground, 10%);
-@btnBorder:                         #aeb7bf;
+@btnBackground:                     @white;
+@btnBackgroundHighlight:            darken(@white, 10%);
+@btnBorder:                         #bbb;
 
 @btnPrimaryBackground:              @linkColor;
-@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 5%);
+@btnPrimaryBackgroundHighlight:     spin(@btnPrimaryBackground, 20%);
 
 @btnInfoBackground:                 #5bc0de;
 @btnInfoBackgroundHighlight:        #2f96b4;
@@ -115,24 +153,25 @@
 @btnSuccessBackground:              #62c462;
 @btnSuccessBackgroundHighlight:     #51a351;
 
-@btnWarningBackground:              darken(@orange, 15%);
+@btnWarningBackground:              lighten(@orange, 15%);
 @btnWarningBackgroundHighlight:     @orange;
 
 @btnDangerBackground:               #ee5f5b;
 @btnDangerBackgroundHighlight:      #bd362f;
 
-@btnInverseBackground:              #444;
-@btnInverseBackgroundHighlight:     @grayDarker;
+@btnInverseBackground:              @grayFour;
+@btnInverseBackgroundHighlight:     @grayTwo;
 
 
 // Forms
 // -------------------------
 @inputBackground:               @white;
-@inputBorder:                   #ccc;
-@inputBorderRadius:             6px;
-@inputDisabledBackground:       @grayLighter;
-@formActionsBackground:         #f5f5f5;
+@inputBorder:                   @grayC;
+@inputBorderRadius:             @baseBorderRadius;
+@inputDisabledBackground:       @grayE;
+@formActionsBackground:         @whiteFive;
 @inputHeight:                   @baseLineHeight + 10px; // base line-height + 8px vertical padding + 2px top/bottom border
+
 
 // Dropdowns
 // -------------------------
@@ -141,7 +180,7 @@
 @dropdownDividerTop:            #e5e5e5;
 @dropdownDividerBottom:         @white;
 
-@dropdownLinkColor:             @grayDark;
+@dropdownLinkColor:             @grayThree;
 @dropdownLinkColorHover:        @white;
 @dropdownLinkColorActive:       @dropdownLinkColor;
 
@@ -152,6 +191,7 @@
 
 // COMPONENT VARIABLES
 // --------------------------------------------------
+
 
 // Z-index master list
 // -------------------------
@@ -167,19 +207,18 @@
 
 // Sprite icons path
 // -------------------------
-@iconSpritePath:          "../../img/glyphicons-halflings.png";
-@iconWhiteSpritePath:     "../../img/glyphicons-halflings-white.png";
+@iconSpritePath:          "../assets/images/glyphicons-halflings.png";
+@iconWhiteSpritePath:     "../assets/images/glyphicons-halflings-white.png";
 
 
 // Input placeholder text color
 // -------------------------
-@placeholderText:         @grayLight;
+@placeholderText:         @grayThree;
 
 
 // Hr border color
 // -------------------------
-@hrBorder:                @grayLighter;
-@hrBorderDark:			  		@black;
+@hrBorder:                @grayE;
 
 
 // Horizontal forms & lists
@@ -189,7 +228,7 @@
 
 // Wells
 // -------------------------
-@wellBackground:                  #f5f5f5;
+@wellBackground:                  @whiteFive;
 
 
 // Navbar
@@ -197,75 +236,58 @@
 @navbarCollapseWidth:             979px;
 @navbarCollapseDesktopWidth:      @navbarCollapseWidth + 1;
 
-@navbarHeight:                    45px;
-@navbarBackgroundHighlight:       #FC872A;
-@navbarBackground:                darken(@navbarBackgroundHighlight, 10%);
+@navbarHeight:                    50px;
+@navbarBackgroundHighlight:       @white;
+@navbarBackground:                @grayThree;
 @navbarBorder:                    darken(@navbarBackground, 12%);
-@navbarTopBorder:									@navbarBorder;
-@navbarBottomBorder:							@navbarBorder;
 
-@navbarText:                      @white;
-@navbarTextShadow:                @navbarBackgroundHighlight;
-@navbarTextHighlight:							@navbarBackgroundHighlight;
-@navbarLinkColor:                 @white;
+@navbarText:                      @grayFive;
+@navbarLinkColor:                 @grayE;
 @navbarLinkColorHover:            @white;
 @navbarLinkColorActive:           @white;
-@navbarLinkBackgroundHover:       transparent;
-@navbarLinkBackgroundActive:      darken(@navbarBackground, 5%);
-@navbarBrand:                			@navbarLinkColor;
+@navbarLinkBackgroundHover:       rgba(0,0,0,.2);
+@navbarLinkBackgroundActive:      @navbarLinkBackgroundHover;
 
-// Pyro navbar
-@navbarPyroBackground:                	#E64D20;
-@navbarPyroBackgroundHighlight:      		#F88626;
-@navbarPyroBorder:                    	@pyroHighlight;
-@navbarPyroTopBorder:										@pyroHighlight;
-@navbarPyroBottomBorder:								@pyroShadow;
-@navbarPyroBackground1x:								"../../img/nav-bg@1x.png";
-@navbarPyroBackground2x:								"../../img/nav-bg@2x.png";
-@navbarBackgroundImageHeight:						@navbarHeight;
-@navbarBackgroundImageWidth:						113px;
+@navbarSearchBackground:          @grayTwo;
+@navbarSearchBackgroundFocus:     @grayOne;
+@navbarSearchBorder:              @grayOne;
+@navbarSearchPlaceholderColor:    @grayC;
 
-@navbarPyroText:                      	@white;
-@navbarPyroTextShadow:									@pyroShadow;
-@navbarPyroTextHighlight:								#ff9920;
-@navbarPyroLinkColor:                 	@white;
-@navbarPyroLinkColorHover:            	@white;
-@navbarPyroLinkColorActive:           	@navbarPyroLinkColorHover;
-@navbarPyroLinkBackgroundHover:       	transparent;
-@navbarPyroLinkBackgroundActive:      	@navbarPyroBottomBorder;
-@navbarPyroBrand:												@pyroShadow;
+@navbarInverseBrandColor:         @navbarInverseLinkColor;
 
-@navbarPyroSearchBackground:          	@white;
-@navbarPyroSearchBackgroundFocus:     	@white;
-@navbarPyroSearchBorder:              	@navbarPyroBackground;
-@navbarPyroSearchPlaceholderColor:    	#d7d7d7;
+@navbarBrandColor:                @navbarLinkColor;
 
-@navbarPyroBrandColor:                	@navbarPyroLinkColor;
+// Inverted navbar
+@navbarInverseHeight:										 120px;
+@navbarInverseBackground:                @white;
+@navbarInverseBackgroundHighlight:       @white;
+@navbarInverseBorder:                    @white;
 
-//Subbar
-// -------------------------
-@subbarPyroBackground:									@pyroBlack;
-@subbarPyroBorder:											@black;
+@navbarInverseText:                      @gray;
+@navbarInverseLinkColor:                 @gray;
+@navbarInverseLinkColorHover:            @pyroOrange;
+@navbarInverseLinkColorActive:           @black;
+@navbarInverseLinkBackgroundHover:       transparent;
+@navbarInverseLinkBackgroundActive:      @navbarInverseBackground;
 
-@subbarPyroTitle:												@white;
-@subbarPyroTitleBreak:									@black;
-@subbarPyroText:												@grayLight;
-@subbarPyroTextShadow:									@grayDarker;
-@subbarPyroTextHighlight:								rgba(255,255,255,.05);
+@navbarInverseSearchBackground:          lighten(@navbarInverseBackground, 25%);
+@navbarInverseSearchBackgroundFocus:     @white;
+@navbarInverseSearchBorder:              @navbarInverseBackground;
+@navbarInverseSearchPlaceholderColor:    #ccc;
 
-@subbarPyroLink:												@subbarPyroTitle;
-@subbarPyroLinkHover:										@pyroOrange;
+@navbarInverseBrandColor:                @navbarInverseLinkColor;
+
 
 // Pagination
 // -------------------------
-@paginationBackground:                #fff;
-@paginationBorder:                    #ddd;
-@paginationActiveBackground:          #f5f5f5;
+@paginationBackground:                @white;
+@paginationBorder:                    @grayD;
+@paginationActiveBackground:          @whiteFive;
 
 
 // Hero unit
 // -------------------------
-@heroUnitBackground:              @grayLighter;
+@heroUnitBackground:              @grayE;
 @heroUnitHeadingColor:            inherit;
 @heroUnitLeadColor:               inherit;
 
@@ -291,14 +313,14 @@
 
 // Tooltips and popovers
 // -------------------------
-@tooltipColor:            #fff;
-@tooltipBackground:       #000;
+@tooltipColor:            @white;
+@tooltipBackground:       @black;
 @tooltipArrowWidth:       5px;
 @tooltipArrowColor:       @tooltipBackground;
 
-@popoverBackground:       #fff;
+@popoverBackground:       @white;
 @popoverArrowWidth:       10px;
-@popoverArrowColor:       #fff;
+@popoverArrowColor:       @white;
 @popoverTitleBackground:  darken(@popoverBackground, 3%);
 
 // Special enhancement for popovers
