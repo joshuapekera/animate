@@ -54,9 +54,6 @@ html {
   margin-top: 0px;
   background: transparent;
 }
-.fixed + h3 {
-  margin-top: 190px;
-}
 .fixed {
   position: fixed !important;
   top: 0px;
@@ -65,19 +62,22 @@ html {
   display: inline-block;
   text-align: center;
 }
+.fixed + h3 {
+  margin-top: 190px;
+}
 #animateTest {
-  background: #333;
+  display: block;
   padding: 20px 0px;
   width: 100%;
-  display: block;
   color: #fff;
   text-align: center;
-  border-radius: 5px;
   font-weight: bold;
+  background: #333;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.6);
-  -ms-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.6);
-  -o-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.6);
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -85,25 +85,43 @@ html {
   -o-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: .2s;
-  -webkit-animation-timing-function: ease;
-  -webkit-animation-fill-mode: both;
   -moz-animation-duration: 1s;
-  -moz-animation-delay: .2s;
-  -moz-animation-timing-function: ease;
-  -moz-animation-fill-mode: both;
   -ms-animation-duration: 1s;
-  -ms-animation-delay: .2s;
-  -ms-animation-timing-function: ease;
-  -ms-animation-fill-mode: both;
   -o-animation-duration: 1s;
-  -o-animation-delay: .2s;
-  -o-animation-timing-function: ease;
-  -o-animation-fill-mode: both;
   animation-duration: 1s;
-  animation-delay: .2s;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -ms-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  -ms-animation-timing-function: ease;
+  -o-animation-timing-function: ease;
   animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
   animation-fill-mode: both;
+}
+#animateTest.dropDown,
+#animateTest.dropUp {
+  -webkit-animation-duration: 0.3s;
+  -moz-animation-duration: 0.3s;
+  -ms-animation-duration: 0.3s;
+  -o-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+}
+#animateTest.scaleIn,
+#animateTest.scaleInBig,
+#animateTest.scaleOut,
+#animateTest.scaleOutBig {
+  -webkit-animation-duration: 0.75s;
+  -moz-animation-duration: 0.75s;
+  -ms-animation-duration: 0.75s;
+  -o-animation-duration: 0.75s;
+  animation-duration: 0.75s;
 }
 #animateTest span {
   margin: 0;
@@ -112,7 +130,7 @@ html {
   width: 200px;
 }
 .btn {
-  font-weight: bold;
-  margin: .5em .25em;
   display: inline-block;
+  margin: .5em .25em;
+  font-weight: bold;
 }

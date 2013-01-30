@@ -1,6 +1,5 @@
-@charset "UTF-8";
 /*!
- * Animate v1.0
+ * Animate LESS v1.0
  * Copyright 2012 Joshua Pekera
  * Author: @joshuapekera
  */
@@ -8,13 +7,25 @@
 // !Keyframe Animations
 // for CSS3 browsers, phones and tablet devices
 // -------------------------------------------------------------
+
+// Animation Mixins
 @import "variables.less";
 @import "mixins.less";
 
-// !Animated
+// !Animated Timer Class
 //body {-webkit-backface-visibility: hidden;} //fixes antialising issues with text during an animation
 .animated {
 	.animation-duration(1s);
+	.animation-fill-mode(both);
+}
+
+.animated-fast {
+	.animation-duration(.5s);
+	.animation-fill-mode(both);
+}
+
+.animated-zing {
+	.animation-duration(.3s);
 	.animation-fill-mode(both);
 }
 
@@ -61,6 +72,7 @@
 @import "keyframes/fadeOutRightBig.less";
 
 // !Bouncing entrances
+@import "keyframes/bounce.less";
 @import "keyframes/bounceIn.less";
 @import "keyframes/bounceInUp.less";
 @import "keyframes/bounceInDown.less";
@@ -74,13 +86,13 @@
 @import "keyframes/bounceOutLeft.less";
 @import "keyframes/bounceOutRight.less";
 
-// !Pop entrances
-@import "keyframes/popIn.less";
-//@import "keyframes/popInBig.less";
+// !Scaling entrances
+@import "keyframes/scaleIn.less";
+@import "keyframes/scaleInBig.less";
 
-// !Pop exits
-//@import "keyframes/popOut.less";
-//@import "keyframes/popOutBig.less";
+// !Scaling exits
+@import "keyframes/scaleOut.less";
+@import "keyframes/scaleOutBig.less";
 
 // !Rotating entrances
 @import "keyframes/rotateIn.less";
@@ -101,9 +113,22 @@
 @import "keyframes/lightSpeedOut.less";
 
 // !Specials
-@import "keyframes/hinge.less";
+@import "keyframes/hingeLeft.less";
+@import "keyframes/hingeRight.less";
 @import "keyframes/rollIn.less";
 @import "keyframes/rollOut.less";
+
+// !Beta Keyframes
+@import "keyframes/dropUp.less";
+@import "keyframes/dropDown.less";
+
+// !Pop entrances
+//@import "keyframes/popIn.less";
+//@import "keyframes/popInBig.less";
+
+// !Pop exits
+//@import "keyframes/popOut.less";
+//@import "keyframes/popOutBig.less";
 
 // !Custom Animate Classes
 // -------------------------

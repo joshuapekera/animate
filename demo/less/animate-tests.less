@@ -1,5 +1,6 @@
 @import "variables.less"; // Modify this for custom colors, font-sizes, etc
 @import "mixins.less";
+@import "../../animate/less/mixins.less";
 
 html {
 	-webkit-font-smoothing: subpixel-antialiased;
@@ -27,10 +28,6 @@ html {
 	background: transparent;
 }
 
-.fixed + h3 {
-	margin-top: 190px;
-}
-
 .fixed {
 	position: fixed !important;
 	top: 0px;
@@ -38,51 +35,38 @@ html {
   margin-left: -100px;
 	display: inline-block;
 	text-align: center;
-	
+	+ h3 {
+		margin-top: 190px;
+	}
 }
 
 #animateTest {
-	text-align: center;
-	background: #333;
+	display: block;
 	padding: 20px 0px;
 	width: 100%;
-	display: block;
 	color: #fff;
 	text-align: center;
-	border-radius: 5px;
 	font-weight: bold;
-	-webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,.6);
-	-moz-box-shadow: 0 0 30px 0 rgba(0,0,0,.6);
-	-ms-box-shadow: 0 0 30px 0 rgba(0,0,0,.6);
-	-o-box-shadow: 0 0 30px 0 rgba(0,0,0,.6);
-	box-shadow: 0 0 30px 0 rgba(0,0,0,.6);
-	
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	-ms-backface-visibility: hidden;
-	-o-backface-visibility: hidden;
-	backface-visibility: hidden;
-	
-	-webkit-animation-duration: 1s;
-	-webkit-animation-delay: .2s;
-	-webkit-animation-timing-function: ease;
-	-webkit-animation-fill-mode: both;
-	-moz-animation-duration: 1s;
-	-moz-animation-delay: .2s;
-	-moz-animation-timing-function: ease;
-	-moz-animation-fill-mode: both;
-	-ms-animation-duration: 1s;
-	-ms-animation-delay: .2s;
-	-ms-animation-timing-function: ease;
-	-ms-animation-fill-mode: both;
-	-o-animation-duration: 1s;
-	-o-animation-delay: .2s;
-	-o-animation-timing-function: ease;
-	-o-animation-fill-mode: both;
-	animation-duration: 1s;
-	animation-delay: .2s;
-	animation-timing-function: ease;
-	animation-fill-mode: both;
+	background: #333;
+	.border-radius(5px);
+	.box-shadow(0 0 30px 0 rgba(0,0,0,.6));
+	.backface-visibility(hidden);
+	.animation-duration(1s);
+	.animation-delay(.2s);
+	.animation-timing-function(ease);
+	.animation-fill-mode(both);
+}
+
+#animateTest.dropDown,
+#animateTest.dropUp {
+	.animation-duration(.3s);
+}
+
+#animateTest.scaleIn,
+#animateTest.scaleInBig,
+#animateTest.scaleOut,
+#animateTest.scaleOutBig {
+	.animation-duration(.75s);
 }
 
 #animateTest span {
@@ -94,7 +78,7 @@ html {
 }
 
 .btn {
-	font-weight: bold;
-	margin: .5em .25em;
 	display: inline-block;
+	margin: .5em .25em;
+	font-weight: bold;
 }

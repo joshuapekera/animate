@@ -1,0 +1,9 @@
+{
+  "name": "animate.less",
+  "version": "1.0.0",
+  "main": ["./test/css/animate.css", "./test/js/jquery.js", "./test/less/bootstrap.less"],
+  "dependencies": {
+    "bootstrap": "lattest",
+    "jquery": "lattest"
+  }
+}
