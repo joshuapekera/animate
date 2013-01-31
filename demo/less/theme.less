@@ -57,6 +57,8 @@ body {
 	.brand {
 		float: none;
 		text-align: center;
+		font-size: @baseFontSize + 20;
+		font-weight: 600;
 	}
 }
 
@@ -87,7 +89,11 @@ body {
 // -----------------------------------------------------
 
 a.btn {
+	margin-bottom: 10px;
 	.transition(none);
+	&:hover, &:active {
+		text-shadow: 0 0 10px @blueLight;
+	}
 }
 
 // TABLES

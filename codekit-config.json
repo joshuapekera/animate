@@ -81,17 +81,6 @@
       "outputAbbreviatedPath" : "\/components\/bootstrap\/js\/tests\/bootstrap\/bootstrap-modal-min.js",
       "fileType" : 64
     },
-    "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/lib\/template.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/lib\/template.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/bootstrap\/template-min.js",
-      "fileType" : 64
-    },
     "\/components\/bootstrap\/js\/bootstrap-typeahead.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -115,6 +104,17 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/lib\/template.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/lib\/template.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/bootstrap\/template-min.js",
+      "fileType" : 64
     },
     "\/demo\/less\/glyphicons.less" : {
       "ignoreWasSetByUser" : 0,
@@ -144,7 +144,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/bounceInRight.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/bounceInRight.css",
       "strictImports" : 0,
@@ -201,7 +201,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/flip.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/flip.css",
       "strictImports" : 0,
@@ -256,6 +256,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/components\/bootstrap\/docs\/customize.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/customize.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/components\/bootstrap\/docs\/assets\/js\/bootstrap-carousel.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -266,15 +275,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/bootstrap\/bootstrap-carousel-min.js",
       "fileType" : 64
-    },
-    "\/components\/bootstrap\/docs\/customize.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/customize.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/components\/jquery\/jquery.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -288,13 +288,13 @@
       "fileType" : 64
     },
     "\/demo\/js\/jquery.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/demo\/js\/jquery.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
+      "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/demo\/bootstrap\/jquery-min.js",
       "fileType" : 64
     },
@@ -328,7 +328,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/popIn.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/popIn.css",
       "strictImports" : 0,
@@ -354,23 +354,12 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/flash.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/flash.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/components\/bootstrap\/js\/bootstrap-affix.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/js\/bootstrap-affix.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/bootstrap\/bootstrap-affix-min.js",
-      "fileType" : 64
     },
     "\/components\/bootstrap\/docs\/assets\/img\/examples\/slide-02.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -389,12 +378,23 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeOutDownBig.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeOutDownBig.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/components\/bootstrap\/js\/bootstrap-affix.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/js\/bootstrap-affix.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/bootstrap\/bootstrap-affix-min.js",
+      "fileType" : 64
     },
     "\/components\/bootstrap\/bootstrap\/bootstrap-affix-min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -440,8 +440,8 @@
     },
     "\/demo\/js\/google-code-prettify\/prettify.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/demo\/js\/google-code-prettify\/prettify.css",
       "outputAbbreviatedPath" : "No Output Path",
@@ -453,22 +453,9 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeInUpBig.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeInUpBig.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/animate\/less\/keyframes\/fadeOutDown.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeOutDown.less",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeOutDown.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -492,6 +479,19 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/components\/bootstrap\/js\/tests\/bootstrap\/bootstrap-tab-min.js",
       "fileType" : 64
+    },
+    "\/animate\/less\/keyframes\/fadeOutDown.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeOutDown.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeOutDown.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/components\/bootstrap\/less\/tests\/navbar-fixed-top.html" : {
       "ignoreWasSetByUser" : 0,
@@ -561,7 +561,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/rotateOut.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/rotateOut.css",
       "strictImports" : 0,
@@ -625,16 +625,18 @@
       "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/bootstrap\/jquery-min.js",
       "fileType" : 64
     },
-    "\/demo\/js\/bootstrap\/bootstrap-carousel.js" : {
+    "\/animate\/less\/keyframes\/flipOutY.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/js\/bootstrap\/bootstrap-carousel.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/demo\/js\/bootstrap\/bootstrap-carousel-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/flipOutY.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/animate\/less\/css\/flipOutY.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/components\/bootstrap\/less\/responsive-1200px-min.less" : {
       "ignoreWasSetByUser" : 0,
@@ -655,7 +657,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeInDown.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeInDown.css",
       "strictImports" : 0,
@@ -693,17 +695,6 @@
       "outputAbbreviatedPath" : "\/demo\/bootstrap\/modernizr-min.js",
       "fileType" : 64
     },
-    "\/components\/bootstrap\/bootstrap\/bootstrap-typeahead-min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/bootstrap\/bootstrap-typeahead-min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/bootstrap\/bootstrap-typeahead-min-min.js",
-      "fileType" : 64
-    },
     "\/components\/bootstrap\/docs\/assets\/ico\/favicon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -715,18 +706,27 @@
       "initialSize" : 2711,
       "fileType" : 8192
     },
-    "\/animate\/less\/keyframes\/flipOutY.less" : {
+    "\/components\/bootstrap\/bootstrap\/bootstrap-typeahead-min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/flipOutY.less",
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/bootstrap\/bootstrap-typeahead-min.js",
       "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/animate\/less\/css\/flipOutY.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/bootstrap\/bootstrap-typeahead-min-min.js",
+      "fileType" : 64
+    },
+    "\/demo\/js\/bootstrap\/bootstrap-carousel.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/demo\/js\/bootstrap\/bootstrap-carousel.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/demo\/js\/bootstrap\/bootstrap-carousel-min.js",
+      "fileType" : 64
     },
     "\/components\/bootstrap\/img\/glyphicons-halflings-white.png" : {
       "ignoreWasSetByUser" : 0,
@@ -765,8 +765,8 @@
     },
     "\/demo\/js\/google-code-prettify\/prettify.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 1,
+      "ignore" : 0,
+      "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/demo\/js\/google-code-prettify\/prettify.js",
       "outputStyle" : 1,
@@ -789,7 +789,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/bounceInLeft.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/bounceInLeft.css",
       "strictImports" : 0,
@@ -859,7 +859,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeOut.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeOut.css",
       "strictImports" : 0,
@@ -953,7 +953,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeInLeftBig.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeInLeftBig.css",
       "strictImports" : 0,
@@ -966,23 +966,12 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/rotateOutUpLeft.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/rotateOutUpLeft.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/images\/logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/images\/logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/images\/logo.png",
-      "initialSize" : 2282,
-      "fileType" : 8192
     },
     "\/animate\/less\/keyframes\/dropUp.less" : {
       "ignoreWasSetByUser" : 0,
@@ -997,19 +986,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/animate\/less\/keyframes\/fadeInDownMedium.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeInDownMedium.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeInDownMedium.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/components\/bootstrap\/js\/tests\/unit\/bootstrap-button.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1020,6 +996,28 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/components\/bootstrap\/js\/tests\/bootstrap\/bootstrap-button-min.js",
       "fileType" : 64
+    },
+    "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/1.0.5\/hogan-1.0.5.common.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/1.0.5\/hogan-1.0.5.common.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/bootstrap\/hogan-1.0.5.common-min.js",
+      "fileType" : 64
+    },
+    "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/images\/logo.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/images\/logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/images\/logo.png",
+      "initialSize" : 2282,
+      "fileType" : 8192
     },
     "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/1.0.3\/hogan.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1043,17 +1041,6 @@
       "outputAbbreviatedPath" : "\/components\/bootstrap\/bootstrap\/bootstrap-dropdown-min.js",
       "fileType" : 64
     },
-    "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/1.0.5\/hogan-1.0.5.common.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/1.0.5\/hogan-1.0.5.common.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/bootstrap\/hogan-1.0.5.common-min.js",
-      "fileType" : 64
-    },
     "\/animate\/less\/keyframes\/fadeInLeftMedium.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1063,6 +1050,19 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeInLeftMedium.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/animate\/less\/keyframes\/fadeInDownMedium.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeInDownMedium.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeInDownMedium.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -1091,16 +1091,18 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/components\/bootstrap\/docs\/assets\/js\/bootstrap-scrollspy.js" : {
+    "\/demo\/less\/theme.less" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/js\/bootstrap-scrollspy.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/bootstrap\/bootstrap-scrollspy-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/demo\/less\/theme.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/demo\/css\/theme.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/components\/bootstrap\/less\/layouts.less" : {
       "ignoreWasSetByUser" : 0,
@@ -1115,18 +1117,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/demo\/less\/theme.less" : {
+    "\/components\/bootstrap\/docs\/assets\/js\/bootstrap-scrollspy.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/less\/theme.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/demo\/css\/theme.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/js\/bootstrap-scrollspy.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/bootstrap\/bootstrap-scrollspy-min.js",
+      "fileType" : 64
     },
     "\/animate\/less\/keyframes\/fadeInLeft.less" : {
       "ignoreWasSetByUser" : 0,
@@ -1134,7 +1134,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeInLeft.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeInLeft.css",
       "strictImports" : 0,
@@ -1152,35 +1152,6 @@
       "initialSize" : 4594,
       "fileType" : 8192
     },
-    "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/1.0.5\/hogan-1.0.5.mustache.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/1.0.5\/hogan-1.0.5.mustache.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/bootstrap\/hogan-1.0.5.mustache-min.js",
-      "fileType" : 64
-    },
-    "\/components\/bootstrap\/docs\/getting-started.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/getting-started.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/components\/bootstrap\/docs\/assets\/css\/docs.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/css\/docs.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/demo\/less\/variables.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1193,6 +1164,35 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/1.0.5\/hogan-1.0.5.mustache.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/1.0.5\/hogan-1.0.5.mustache.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/bootstrap\/hogan-1.0.5.mustache-min.js",
+      "fileType" : 64
+    },
+    "\/components\/bootstrap\/docs\/assets\/css\/docs.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/css\/docs.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/components\/bootstrap\/docs\/getting-started.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/getting-started.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/components\/bootstrap\/docs\/assets\/img\/examples\/slide-03.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1235,7 +1235,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/rotateInDownRight.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/rotateInDownRight.css",
       "strictImports" : 0,
@@ -1248,7 +1248,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/tada.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/tada.css",
       "strictImports" : 0,
@@ -1310,6 +1310,15 @@
       "initialSize" : 30968,
       "fileType" : 8192
     },
+    "\/animate\/css\/animate.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/animate\/css\/animate.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/test\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1325,7 +1334,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/bounceInDown.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/bounceInDown.css",
       "strictImports" : 0,
@@ -1352,6 +1361,19 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/animate\/less\/keyframes\/rotateOutDownRight.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/rotateOutDownRight.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/animate\/less\/css\/rotateOutDownRight.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/components\/bootstrap\/docs\/examples\/signin.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1360,28 +1382,6 @@
       "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/examples\/signin.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/animate\/less\/keyframes\/rotateOutDownRight.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/rotateOutDownRight.less",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/animate\/less\/css\/rotateOutDownRight.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/animate\/css\/animate.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/animate\/css\/animate.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/components\/bootstrap\/docs\/base-css.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1411,7 +1411,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/bounce.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/bounce.css",
       "strictImports" : 0,
@@ -1453,17 +1453,6 @@
       "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/js\/bootstrap\/prettify-min.js",
       "fileType" : 64
     },
-    "\/components\/bootstrap\/js\/tests\/unit\/bootstrap-alert.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/js\/tests\/unit\/bootstrap-alert.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/js\/tests\/bootstrap\/bootstrap-alert-min.js",
-      "fileType" : 64
-    },
     "\/demo\/js\/bootstrap\/application.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1475,13 +1464,24 @@
       "outputAbbreviatedPath" : "\/demo\/js\/bootstrap\/application-min.js",
       "fileType" : 64
     },
+    "\/components\/bootstrap\/js\/tests\/unit\/bootstrap-alert.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/js\/tests\/unit\/bootstrap-alert.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/js\/tests\/bootstrap\/bootstrap-alert-min.js",
+      "fileType" : 64
+    },
     "\/animate\/less\/keyframes\/rotateInUpLeft.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/rotateInUpLeft.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/rotateInUpLeft.css",
       "strictImports" : 0,
@@ -1494,9 +1494,22 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeInRight.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeInRight.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/animate\/less\/keyframes\/rotateInDownLeft.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/rotateInDownLeft.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/animate\/less\/css\/rotateInDownLeft.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -1511,19 +1524,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/bootstrap\/template-1.0.5-min.js",
       "fileType" : 64
-    },
-    "\/animate\/less\/keyframes\/rotateInDownLeft.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/rotateInDownLeft.less",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/animate\/less\/css\/rotateInDownLeft.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
     },
     "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/1.0.0\/hogan.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1639,7 +1639,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/bounceOutDown.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/bounceOutDown.css",
       "strictImports" : 0,
@@ -1652,7 +1652,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/wobble.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/wobble.css",
       "strictImports" : 0,
@@ -1713,7 +1713,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/pulse.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/pulse.css",
       "strictImports" : 0,
@@ -1731,15 +1731,15 @@
       "outputAbbreviatedPath" : "\/components\/bootstrap\/js\/tests\/bootstrap\/bootstrap-collapse-min.js",
       "fileType" : 64
     },
-    "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/1.0.5\/hogan-1.0.5.min.common.js" : {
+    "\/components\/bootstrap\/js\/bootstrap-scrollspy.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/1.0.5\/hogan-1.0.5.min.common.js",
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/js\/bootstrap-scrollspy.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/bootstrap\/hogan-1.0.5.min.common-min.js",
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/bootstrap\/bootstrap-scrollspy-min.js",
       "fileType" : 64
     },
     "\/demo\/less\/queries.less" : {
@@ -1755,16 +1755,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/components\/bootstrap\/bootstrap\/bootstrap-modal-min.js" : {
+    "\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-sticky-footer.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/bootstrap\/bootstrap-modal-min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/bootstrap\/bootstrap-modal-min-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-sticky-footer.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-sticky-footer.png",
+      "initialSize" : 9749,
+      "fileType" : 8192
     },
     "\/demo\/less\/glyphs.less" : {
       "ignoreWasSetByUser" : 0,
@@ -1779,26 +1779,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-sticky-footer.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-sticky-footer.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-sticky-footer.png",
-      "initialSize" : 9749,
-      "fileType" : 8192
-    },
-    "\/components\/bootstrap\/css\/bootstrap.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/css\/bootstrap.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/demo\/js\/bootstrap\/bootstrap-button.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1809,6 +1789,26 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/demo\/js\/bootstrap\/bootstrap-button-min.js",
       "fileType" : 64
+    },
+    "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/1.0.5\/hogan-1.0.5.min.common.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/1.0.5\/hogan-1.0.5.min.common.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/bootstrap\/hogan-1.0.5.min.common-min.js",
+      "fileType" : 64
+    },
+    "\/components\/bootstrap\/css\/bootstrap.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/css\/bootstrap.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/components\/bootstrap\/less\/tests\/navbar.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1830,15 +1830,15 @@
       "outputAbbreviatedPath" : "\/demo\/js\/bootstrap\/bootstrap-tooltip-min.js",
       "fileType" : 64
     },
-    "\/components\/bootstrap\/js\/bootstrap-scrollspy.js" : {
+    "\/components\/bootstrap\/bootstrap\/bootstrap-modal-min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/js\/bootstrap-scrollspy.js",
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/bootstrap\/bootstrap-modal-min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/bootstrap\/bootstrap-scrollspy-min.js",
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/bootstrap\/bootstrap-modal-min-min.js",
       "fileType" : 64
     },
     "\/components\/bootstrap\/less\/close.less" : {
@@ -1891,7 +1891,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/swing.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/swing.css",
       "strictImports" : 0,
@@ -1927,17 +1927,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/images\/small-hogan-icon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/images\/small-hogan-icon.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/images\/small-hogan-icon.png",
-      "initialSize" : 365,
-      "fileType" : 8192
-    },
     "\/components\/bootstrap\/docs\/assets\/js\/bootstrap-collapse.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1948,6 +1937,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/bootstrap\/bootstrap-collapse-min.js",
       "fileType" : 64
+    },
+    "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/images\/small-hogan-icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/images\/small-hogan-icon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/images\/small-hogan-icon.png",
+      "initialSize" : 365,
+      "fileType" : 8192
     },
     "\/animate\/less\/keyframes\/scaleOut.less" : {
       "ignoreWasSetByUser" : 0,
@@ -2047,22 +2047,9 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeOutUp.less",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeOutUp.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/components\/bootstrap\/less\/tables.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/less\/tables.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/css\/tables.css",
+      "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeOutUp.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -2076,6 +2063,19 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/components\/bootstrap\/css\/pagination.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/components\/bootstrap\/less\/tables.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/less\/tables.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/css\/tables.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -2100,15 +2100,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/animate\/less\/keyframes\/bounceOutRight.less" : {
+    "\/animate\/less\/keyframes\/rotateOutUpRight.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/bounceOutRight.less",
-      "outputStyle" : 1,
+      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/rotateOutUpRight.less",
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/animate\/less\/css\/bounceOutRight.css",
+      "outputAbbreviatedPath" : "\/animate\/less\/css\/rotateOutUpRight.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -2119,7 +2119,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeOutRightBig.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeOutRightBig.css",
       "strictImports" : 0,
@@ -2148,15 +2148,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/animate\/less\/keyframes\/rotateOutUpRight.less" : {
+    "\/animate\/less\/keyframes\/bounceOutRight.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/rotateOutUpRight.less",
-      "outputStyle" : 1,
+      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/bounceOutRight.less",
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/animate\/less\/css\/rotateOutUpRight.css",
+      "outputAbbreviatedPath" : "\/animate\/less\/css\/bounceOutRight.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -2270,7 +2270,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/bounceIn.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/bounceIn.css",
       "strictImports" : 0,
@@ -2283,7 +2283,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeInUp.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeInUp.css",
       "strictImports" : 0,
@@ -2366,7 +2366,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeOutRight.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeOutRight.css",
       "strictImports" : 0,
@@ -2546,7 +2546,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/bounceOutUp.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/bounceOutUp.css",
       "strictImports" : 0,
@@ -2554,25 +2554,14 @@
       "debugStyle" : 0
     },
     "\/demo\/js\/application-min.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/js\/application-min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/demo\/bootstrap\/application-min-min.js",
-      "fileType" : 64
-    },
-    "\/components\/bootstrap\/docs\/assets\/js\/bootstrap-transition.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/js\/bootstrap-transition.js",
+      "inputAbbreviatedPath" : "\/demo\/js\/application-min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/bootstrap\/bootstrap-transition-min.js",
+      "outputAbbreviatedPath" : "\/demo\/bootstrap\/application-min-min.js",
       "fileType" : 64
     },
     "\/components\/bootstrap\/bootstrap\/bootstrap-transition-min.js" : {
@@ -2586,16 +2575,29 @@
       "outputAbbreviatedPath" : "\/components\/bootstrap\/bootstrap\/bootstrap-transition-min-min.js",
       "fileType" : 64
     },
-    "\/components\/bootstrap\/docs\/assets\/img\/bs-docs-bootstrap-features.png" : {
+    "\/components\/bootstrap\/docs\/assets\/js\/bootstrap-transition.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/img\/bs-docs-bootstrap-features.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/img\/bs-docs-bootstrap-features.png",
-      "initialSize" : 11244,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/js\/bootstrap-transition.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/bootstrap\/bootstrap-transition-min.js",
+      "fileType" : 64
+    },
+    "\/animate\/less\/keyframes\/lightSpeedIn.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/lightSpeedIn.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/animate\/less\/css\/lightSpeedIn.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/animate\/less\/keyframes\/dropDown.less" : {
       "ignoreWasSetByUser" : 0,
@@ -2610,18 +2612,16 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/animate\/less\/keyframes\/lightSpeedIn.less" : {
+    "\/components\/bootstrap\/docs\/assets\/img\/bs-docs-bootstrap-features.png" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/lightSpeedIn.less",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/animate\/less\/css\/lightSpeedIn.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/img\/bs-docs-bootstrap-features.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/img\/bs-docs-bootstrap-features.png",
+      "initialSize" : 11244,
+      "fileType" : 8192
     },
     "\/animate\/less\/keyframes\/bounceOut.less" : {
       "ignoreWasSetByUser" : 0,
@@ -2629,7 +2629,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/bounceOut.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/bounceOut.css",
       "strictImports" : 0,
@@ -2667,19 +2667,6 @@
       "outputAbbreviatedPath" : "\/components\/bootstrap\/js\/tests\/bootstrap\/bootstrap-popover-min.js",
       "fileType" : 64
     },
-    "\/components\/bootstrap\/less\/responsive-navbar.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/less\/responsive-navbar.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/css\/responsive-navbar.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/animate\/less\/mixins.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2689,6 +2676,19 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/css\/mixins.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/components\/bootstrap\/less\/responsive-navbar.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/less\/responsive-navbar.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/css\/responsive-navbar.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -2708,7 +2708,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeIn.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeIn.css",
       "strictImports" : 0,
@@ -2757,6 +2757,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/components\/bootstrap\/docs\/assets\/img\/bs-docs-masthead-pattern.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/img\/bs-docs-masthead-pattern.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/img\/bs-docs-masthead-pattern.png",
+      "initialSize" : 6450,
+      "fileType" : 8192
+    },
     "\/components\/bootstrap\/less\/wells.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2783,24 +2794,13 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/components\/bootstrap\/docs\/assets\/img\/bs-docs-masthead-pattern.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/img\/bs-docs-masthead-pattern.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/img\/bs-docs-masthead-pattern.png",
-      "initialSize" : 6450,
-      "fileType" : 8192
-    },
     "\/animate\/less\/keyframes\/fadeOutLeft.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeOutLeft.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeOutLeft.css",
       "strictImports" : 0,
@@ -2818,18 +2818,16 @@
       "outputAbbreviatedPath" : "\/components\/bootstrap\/bootstrap\/bootstrap-dropdown-min-min.js",
       "fileType" : 64
     },
-    "\/animate\/less\/keyframes\/fadeInUpMedium.less" : {
+    "\/components\/bootstrap\/docs\/assets\/img\/bootstrap-mdo-sfmoma-03.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeInUpMedium.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeInUpMedium.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/img\/bootstrap-mdo-sfmoma-03.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/img\/bootstrap-mdo-sfmoma-03.jpg",
+      "initialSize" : 49063,
+      "fileType" : 4096
     },
     "\/components\/bootstrap\/less\/responsive-utilities.less" : {
       "ignoreWasSetByUser" : 0,
@@ -2844,6 +2842,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/components\/bootstrap\/docs\/examples\/marketing-alternate.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/examples\/marketing-alternate.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/tools\/release.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2855,25 +2862,18 @@
       "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/bootstrap\/release-min.js",
       "fileType" : 64
     },
-    "\/components\/bootstrap\/docs\/examples\/marketing-alternate.html" : {
+    "\/animate\/less\/keyframes\/fadeInUpMedium.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/examples\/marketing-alternate.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/components\/bootstrap\/docs\/assets\/img\/bootstrap-mdo-sfmoma-03.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/img\/bootstrap-mdo-sfmoma-03.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/assets\/img\/bootstrap-mdo-sfmoma-03.jpg",
-      "initialSize" : 49063,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeInUpMedium.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeInUpMedium.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/test\/mustache.js" : {
       "ignoreWasSetByUser" : 0,
@@ -2951,7 +2951,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/rotateOutDownLeft.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/rotateOutDownLeft.css",
       "strictImports" : 0,
@@ -3019,7 +3019,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeInRightBig.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeInRightBig.css",
       "strictImports" : 0,
@@ -3054,7 +3054,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeOutLeftBig.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeOutLeftBig.css",
       "strictImports" : 0,
@@ -3078,7 +3078,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/flipInY.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/flipInY.css",
       "strictImports" : 0,
@@ -3091,7 +3091,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/rollOut.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/rollOut.css",
       "strictImports" : 0,
@@ -3117,7 +3117,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/flipInX.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/flipInX.css",
       "strictImports" : 0,
@@ -3176,7 +3176,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeOutUpBig.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeOutUpBig.css",
       "strictImports" : 0,
@@ -3231,7 +3231,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/fadeInDownBig.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/fadeInDownBig.css",
       "strictImports" : 0,
@@ -3249,6 +3249,19 @@
       "initialSize" : 83303,
       "fileType" : 4096
     },
+    "\/animate\/less\/keyframes\/bounceOutLeft.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/bounceOutLeft.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/animate\/less\/css\/bounceOutLeft.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/1.0.5\/hogan-1.0.5.min.amd.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -3259,19 +3272,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/components\/bootstrap\/docs\/build\/node_modules\/hogan.js\/web\/builds\/bootstrap\/hogan-1.0.5.min.amd-min.js",
       "fileType" : 64
-    },
-    "\/animate\/less\/keyframes\/bounceOutLeft.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/bounceOutLeft.less",
-      "outputStyle" : 1,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/animate\/less\/css\/bounceOutLeft.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
     },
     "\/components\/bootstrap\/less\/dropdowns.less" : {
       "ignoreWasSetByUser" : 0,
@@ -3299,15 +3299,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/components\/bootstrap\/less\/media.less" : {
+    "\/animate\/less\/keyframes\/wiggle.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/less\/media.less",
+      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/wiggle.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/components\/bootstrap\/css\/media.css",
+      "outputAbbreviatedPath" : "\/animate\/less\/css\/wiggle.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -3336,15 +3336,15 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/animate\/less\/keyframes\/wiggle.less" : {
+    "\/components\/bootstrap\/less\/media.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/wiggle.less",
-      "outputStyle" : 1,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/less\/media.less",
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/animate\/less\/css\/wiggle.css",
+      "outputAbbreviatedPath" : "\/components\/bootstrap\/css\/media.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -3430,7 +3430,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/shake.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/shake.css",
       "strictImports" : 0,
@@ -3443,7 +3443,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/flipOutX.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/flipOutX.css",
       "strictImports" : 0,
@@ -3483,7 +3483,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/rotateIn.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/rotateIn.css",
       "strictImports" : 0,
@@ -3588,7 +3588,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/rollIn.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/rollIn.css",
       "strictImports" : 0,
@@ -3601,7 +3601,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/lightSpeedOut.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/lightSpeedOut.css",
       "strictImports" : 0,
@@ -3619,6 +3619,15 @@
       "outputAbbreviatedPath" : "\/components\/bootstrap\/bootstrap\/bootstrap-transition-min.js",
       "fileType" : 64
     },
+    "\/components\/bootstrap\/docs\/extend.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/extend.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/components\/bootstrap\/less\/popovers.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -3632,22 +3641,13 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/components\/bootstrap\/docs\/extend.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/components\/bootstrap\/docs\/extend.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/animate\/less\/keyframes\/rotateInUpRight.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/rotateInUpRight.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/rotateInUpRight.css",
       "strictImports" : 0,
@@ -3660,7 +3660,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/animate\/less\/keyframes\/bounceInUp.less",
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/animate\/less\/css\/bounceInUp.css",
       "strictImports" : 0,
