@@ -1,0 +1,123 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 32px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+.animate-canvas {
+  margin-top: 40px;
+}
+.content {
+  background: transparent;
+  margin-top: 0px;
+  height: 150px;
+}
+.sandbox {
+  padding: 60px 0 20px 0;
+  position: relative;
+  z-index: 1030;
+  pointer-events: none;
+  max-width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0px;
+  background: transparent;
+}
+.fixed {
+  position: fixed !important;
+  top: 0px;
+  left: 50%;
+  margin-left: -100px;
+  display: inline-block;
+  text-align: center;
+}
+.fixed + h3 {
+  margin-top: 190px;
+}
+#animateTest {
+  display: block;
+  padding: 20px 0px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  background: #333;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.6);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -ms-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-timing-function: ease;
+  -moz-animation-timing-function: ease;
+  -ms-animation-timing-function: ease;
+  -o-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+#animateTest.dropDown,
+#animateTest.dropUp {
+  -webkit-animation-duration: 0.3s;
+  -moz-animation-duration: 0.3s;
+  -ms-animation-duration: 0.3s;
+  -o-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+}
+#animateTest.scaleIn,
+#animateTest.scaleInBig,
+#animateTest.scaleOut,
+#animateTest.scaleOutBig {
+  -webkit-animation-duration: 0.75s;
+  -moz-animation-duration: 0.75s;
+  -ms-animation-duration: 0.75s;
+  -o-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+}
+#animateTest span {
+  margin: 0;
+}
+.fixed #animateTest {
+  width: 200px;
+}
