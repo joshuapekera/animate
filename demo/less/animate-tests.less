@@ -1,19 +1,53 @@
 @import "variables.less"; // Modify this for custom colors, font-sizes, etc
-@import "../../components/bootstrap/less/mixins.less";
+@import "../../animate/components/bootstrap/less/mixins.less";
 @import "../../animate/less/mixins.less";
 
 html {
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 
+a, input, button {
+    -ms-touch-action: none !important;
+}
+
 .animate-canvas {
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 .content {
 	background: transparent;
 	margin-top: 0px;
 	height: 150px;
+}
+
+.hero-unit {
+	text-align: center;
+	margin-bottom: 0px;
+	text-shadow: none;
+	.border-radius(0px);
+	h1 {
+		font-weight: 100;
+		//text-transform: uppercase;
+	//background-image: -webkit-linear-gradient(92deg,#fb83fa,#00aced);
+	//-webkit-background-clip: text;
+	//-webkit-text-fill-color: transparent;
+	}
+}
+
+.btn {
+	color: @gray;
+	border: 1px solid @grayNine;
+	.border-radius(6px);
+	text-shadow: none;
+}
+
+.btn-primary {
+	background-image: none;
+	background-color: @btnPrimaryBackground;
+	&:hover, &:focus, &:hover {
+		background-color: @themeBlue;
+		border: 1px solid darken(@themeBlue, 10%);
+	}
 }
 
 .sandbox {
@@ -28,15 +62,19 @@ html {
 	background: transparent;
 }
 
+h3 {
+	font-size: @baseFontSize + 4;
+}
+
 .fixed {
 	position: fixed !important;
 	top: 0px;
-  left: 50%;
-  margin-left: -100px;
+	left: 50%;
+  	margin-left: -100px;
 	display: inline-block;
 	text-align: center;
 	+ h3 {
-		margin-top: 190px;
+		margin-top: @baseFontSize + 40;
 	}
 }
 

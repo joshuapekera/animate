@@ -1,18 +1,18 @@
 {
   "name": "animate",
   "version": "1.0.1",
-  "main": ["./test/css/animate.css", "./test/js/jquery.js", "./test/less/bootstrap.less"],
+  "main": ["./demo/css/animate.css", "./demo/js/jquery.js", "./demo/less/bootstrap.less"],
   "ignore": [
     "git.php",
     "codekit-config.json",
-    "**/*.txt"
+    "demo/less",
+    "**/*.txt",
   ],
   "dependencies": {
-    "<name>": "<version>",
-    "<name>": "<folder>",
-    "<name>": "<package>"
+    "bootstrap": "2.3.2",
+    "fastclick": "lattest",
   },
   "devDependencies": {
-    "bootstrap": "lattest",
+    "bootstrap": "2.3.2",
   }
 }

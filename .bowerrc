@@ -1,6 +1,6 @@
 {
-  "directory" : "components",
-  "json"      : "component.json",
+  "directory" : "animate/components",
+  "json"      : "bower.json",
   "endpoint"  : "https://bower.herokuapp.com",
   "searchpath": [
     "https://bower.herokuapp.com"

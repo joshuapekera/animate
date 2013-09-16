@@ -31,14 +31,9 @@
   <body>
   
   	<div id="wrap">
-		  <div class="navbar navbar-static-top">
-		    <div class="navbar-inner">
-		      <div class="container">
-		        <a class="brand" href="#">Animate</a>
-		      </div>
-		    </div>
-		  </div>
-	
+		<div class="hero-unit">
+			<h1>animate</h1>
+		</div>
 	
 		<!-- Masthead
 		================================================== -->
@@ -123,6 +118,16 @@
 						<a class="btn btn-primary" data-test='bounceOutUp'>bounceOutUp</a>
 						<a class="btn btn-primary" data-test='bounceOutLeft'>bounceOutLeft</a>
 						<a class="btn btn-primary" data-test='bounceOutRight'>bounceOutRight</a>
+						
+						<h3>EaseIn entrances</h3>
+						
+						<a class="btn btn-primary" data-test='easeInLeft'>easeInLeft</a>
+						<a class="btn btn-primary" data-test='easeInRight'>easeInRight</a>
+					
+						<h3>EaseOut exits</h3>
+						
+						<a class="btn btn-primary" data-test='easeOutLeft'>easeOutLeft</a>
+						<a class="btn btn-primary" data-test='easeInRight'>easeInRight</a>
 					
 						<h3>Scaling entrances</h3>
 						
@@ -191,7 +196,9 @@
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="demo/js/jquery.js"></script>
-  <script src="demo/js/application-min.js"></script>
+  <script src="demo/js/plugins.min.js"></script>
+  <script src="demo/js/app.min.js"></script>
+  <script src="demo/js/fastclick.min.js"></script>
   
   <script>
 	function testAnim(x) {
