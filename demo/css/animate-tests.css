@@ -69,6 +69,9 @@ button {
 .btn-primary:active {
   background-color: #4787ff;
   border: 1px solid #1466ff;
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 .sandbox {
   padding: 60px 0 20px 0;
