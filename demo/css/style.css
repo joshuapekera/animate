@@ -7064,10 +7064,7 @@ a.badge:focus {
 a {
   color: #4593de;
   text-decoration: none;
-  -webkit-transition: all linear 200ms;
-  -moz-transition: all linear 200ms;
-  -o-transition: all linear 200ms;
-  transition: all linear 200ms;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 a:hover {
   color: #1c60a1;

@@ -10,10 +10,6 @@ a, input, button {
     -ms-touch-action: none !important;
 }
 
-a {
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
 .animate-canvas {
 	margin-top: 20px;
 }
@@ -48,7 +44,7 @@ a {
 .btn-primary {
 	background-image: none;
 	background-color: @btnPrimaryBackground;
-	&:hover, &:focus, &:hover {
+	&:hover, &:focus, &:active {
 		background-color: @themeBlue;
 		border: 1px solid darken(@themeBlue, 10%);
 	}

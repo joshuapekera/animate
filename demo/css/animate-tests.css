@@ -33,9 +33,6 @@ input,
 button {
   -ms-touch-action: none !important;
 }
-a {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
 .animate-canvas {
   margin-top: 20px;
 }
@@ -69,7 +66,7 @@ a {
 }
 .btn-primary:hover,
 .btn-primary:focus,
-.btn-primary:hover {
+.btn-primary:active {
   background-color: #4787ff;
   border: 1px solid #1466ff;
 }
