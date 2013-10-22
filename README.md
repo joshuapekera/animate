@@ -1,23 +1,26 @@
 # Animate
 
 * [Website](http://lab.joshuapekera.com/animate)
-* [Documentation](http://pyrocms.com/docs)
+* [Documentation](https://www.pyrocms.com/documentation)
 * [License](http://pyrocms.com/legal/license)
 * Version: 1.0
 
-## Developer
+## Developers
 
-* [@joshuapekera](http://twitter.com/joshuapekera)
+* Original CSS version by [@daneden](http://twitter.com/_dte)
+* LESS port by [@joshuapekera](http://twitter.com/joshuapekera)
 
 #Animate.less
 *CSS animation*
 
 `animate.less` is a bunch of cool, fun, and cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and general just-add-water-awesomeness.
 
+Animate.less is a faithful port of the amazing [animate.css](https://github.com/daneden/animate.css) by @daneden. If LESS isn't your css preprocessor of choice, be sure to check the original library out.
+
 ##Usage
 To use animate.less in your website, simply drop the stylesheet into your document's `<head>`, and add the class `animated` to an element, along with any of the animation names.
 
-You can do a whole bunch of other stuff with animate.css when you combine it with jQuery or add your own CSS rules. Dynamically add animations using jQuery with ease:
+You can do a whole bunch of other stuff with animate.less when you combine it with jQuery or add your own CSS rules. Dynamically add animations using jQuery with ease:
 
 ```javascript
 $('#yourElement').addClass('animated bounceOutLeft');
@@ -40,10 +43,10 @@ You can change the duration of your animations, add a delay or change the number
 *Note: Add `overflow-x:hidden` to parent elements if they have a `width:100%` and you are using bounceInLeft or bounceInRight on one or more child elements. This will avoid an appearing and dissappearing horizontal scroll bar in the footer.
 
 ##License
-Animate.css is licensed under the &#9786; license. (http://licence.visualidiot.com/)
+Animate.less is licensed under the &#9786; license. (http://licence.visualidiot.com/)
 
 ##Learn more
-You can learn more about animate.css over at http://lab.joshuapekera.com/animate
+You can learn more about animate.less over at http://lab.joshuapekera.com/animate
 
 ##Cheat Sheet
 
