@@ -1,5 +1,5 @@
 {
-  "name": "animate",
+  "name": "animate.less",
   "version": "1.0.1",
   "main": ["./demo/css/animate.css", "./demo/js/jquery.js", "./demo/less/bootstrap.less"],
   "ignore": [
