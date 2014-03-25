@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "bootstrap": "2.3.2",
-    "fastclick": "lattest"
+    "fastclick": "master"
   },
   "devDependencies": {
     "bootstrap": "2.3.2"
