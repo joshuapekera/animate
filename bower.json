@@ -6,13 +6,13 @@
     "git.php",
     "codekit-config.json",
     "demo/less",
-    "**/*.txt",
+    "**/*.txt"
   ],
   "dependencies": {
     "bootstrap": "2.3.2",
-    "fastclick": "lattest",
+    "fastclick": "latest"
   },
   "devDependencies": {
-    "bootstrap": "2.3.2",
+    "bootstrap": "2.3.2"
   }
 }
